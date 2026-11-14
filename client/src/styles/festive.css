@@ -1,0 +1,357 @@
+/* Nowe elementy: żarty, odliczanie, latający Mikołaj, obrazki w tle, konfetti. */
+
+/* Losowe teksty pojawiają się płynnie, gdy tylko wczyta się pula. */
+.greeting,
+.event-tag i,
+.countdown-copy p,
+.joke-text,
+.gift-quip {
+  transition: opacity 0.35s;
+}
+.pending {
+  opacity: 0;
+}
+.event-tag i {
+  font-style: normal;
+}
+
+/* ---- Stałe tło: obrazki i Mikołaj ---- */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+.decor-item {
+  position: absolute;
+  height: auto;
+  opacity: 0.17;
+  filter: saturate(0.85);
+  user-select: none;
+  transform: rotate(var(--rot, 0deg));
+  animation: decor-bob 8s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes decor-bob {
+  from {
+    transform: translateY(-9px) rotate(var(--rot, 0deg));
+  }
+  to {
+    transform: translateY(9px) rotate(calc(var(--rot, 0deg) + 4deg));
+  }
+}
+
+.santa-flyer {
+  position: absolute;
+  left: 0;
+  width: 280px;
+  animation-duration: 17s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+.santa-flyer.ltr {
+  animation-name: fly-ltr;
+}
+.santa-flyer.rtl {
+  animation-name: fly-rtl;
+}
+.santa-flyer.rtl img {
+  transform: scaleX(-1);
+}
+.santa-bob {
+  position: relative;
+  animation: santa-bob 2.8s ease-in-out infinite alternate;
+}
+.santa-bob img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 6px 14px #0005);
+}
+.santa-bubble {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% - 6px);
+  width: max-content;
+  max-width: 230px;
+  margin: 0;
+  padding: 8px 13px;
+  transform: translateX(-50%);
+  border-radius: 14px;
+  background: #fff6e0;
+  color: #3b2a22;
+  font: italic 0.78rem/1.35 Georgia, serif;
+  text-align: center;
+  box-shadow: 0 6px 18px #0004;
+  animation: bubble-in 0.5s ease-out 1.2s both;
+}
+.santa-bubble:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -7px;
+  border: 7px solid transparent;
+  border-top-color: #fff6e0;
+}
+@keyframes fly-ltr {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+@keyframes fly-rtl {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-300px);
+  }
+}
+@keyframes santa-bob {
+  from {
+    transform: translateY(-12px) rotate(-1.5deg);
+  }
+  to {
+    transform: translateY(14px) rotate(2deg);
+  }
+}
+@keyframes bubble-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+/* ---- Prezent do szturchania na stronie głównej ---- */
+.gift-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.gift-button:hover {
+  background: transparent;
+  transform: none;
+}
+.gift-button:active {
+  transform: scale(0.97);
+}
+.gift-button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+.poked .gift-box {
+  animation: poke 0.6s ease-in-out;
+}
+.poked .spark {
+  animation: twinkle 0.3s alternate 2;
+}
+@keyframes poke {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  20% {
+    transform: rotate(-13deg) translateX(-5px);
+  }
+  45% {
+    transform: rotate(4deg) translateX(5px);
+  }
+  70% {
+    transform: rotate(-9deg);
+  }
+}
+.gift-quip {
+  min-height: 3.1em;
+  max-width: 420px;
+  margin: 0 auto 8px;
+  font: italic 0.92rem/1.55 Georgia, serif;
+  color: var(--gold);
+}
+.gift-quip:empty {
+  min-height: 0;
+}
+
+/* ---- Odliczanie do Wigilii ---- */
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 440px;
+  margin: 26px auto 0;
+  padding: 16px 22px;
+  border: 1px solid #edcb873d;
+  border-radius: 14px;
+  background: #1d3f31cc;
+  text-align: left;
+}
+.countdown-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 78px;
+  line-height: 1;
+}
+.countdown-number strong {
+  font: 700 3rem/1 Georgia, serif;
+  color: #fff2d2;
+  text-shadow: 0 0 22px #edcb8755;
+}
+.countdown-number span {
+  margin-top: 6px;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.countdown-copy b {
+  display: block;
+  color: var(--gold);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+.countdown-copy p {
+  margin: 5px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: #d8dfc9;
+}
+
+/* ---- Karta z żartem ---- */
+.joke-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  max-width: 610px;
+  margin: 30px auto 0;
+  padding: 20px 22px;
+  text-align: left;
+  border: 1px solid #edcb873d;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #254e3d, #1c3d30);
+  box-shadow: 0 14px 40px #0003;
+}
+.joke-card > img {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transform: rotate(-6deg);
+}
+.joke-card h2 {
+  margin: 0 0 8px;
+  font: 700 0.7rem/1.4 "Trebuchet MS", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.joke-text {
+  margin: 0;
+  min-height: 3em;
+  font: italic 1.08rem/1.6 Georgia, serif;
+  color: #fff2d2;
+  animation: reveal 0.5s ease-out;
+}
+.joke-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+}
+.joke-foot small {
+  font-size: 0.62rem;
+  color: #9aaf9f;
+}
+
+/* ---- Konfetti przy odsłonięciu wyniku ---- */
+.confetti-burst {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.confetti-burst i {
+  position: absolute;
+  top: -16px;
+  width: 8px;
+  height: 14px;
+  opacity: 0;
+  animation: confetti-fall 3s ease-in both;
+  will-change: transform;
+}
+.confetti-burst i.round {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+@keyframes confetti-fall {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(0);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift, 0), 640px, 0) rotate(var(--spin, 540deg));
+  }
+}
+
+/* ---- Telefony ---- */
+@media (max-width: 700px) {
+  .decor-item {
+    opacity: 0.13;
+  }
+  .decor-item:nth-child(n + 5) {
+    display: none;
+  }
+  .santa-flyer {
+    width: 190px;
+    animation-duration: 12s;
+  }
+  .santa-bubble {
+    max-width: 170px;
+    font-size: 0.7rem;
+  }
+  .joke-card {
+    padding: 16px;
+    gap: 12px;
+  }
+  .joke-card > img {
+    width: 46px;
+    height: 46px;
+  }
+  .joke-text {
+    font-size: 1rem;
+  }
+  .countdown {
+    gap: 14px;
+    padding: 14px 16px;
+  }
+  .countdown-number strong {
+    font-size: 2.5rem;
+  }
+}
+
+@media print {
+  .backdrop {
+    display: none !important;
+  }
+}

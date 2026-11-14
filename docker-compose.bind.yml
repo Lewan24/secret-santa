@@ -1,0 +1,6 @@
+# Nakładka: dane w katalogu ./data na hoście zamiast w wolumenie santa-data.
+# Użycie: docker compose -f docker-compose.yml -f docker-compose.bind.yml up -d --build
+services:
+  secret-santa:
+    volumes:
+      - ./data:/app/data

@@ -1,0 +1,21 @@
+services:
+  secret-santa:
+    build: .
+    container_name: secret-santa
+    restart: unless-stopped
+    init: true
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATA_DIR: /app/data
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:?Ustaw PUBLIC_BASE_URL w pliku .env}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Ustaw ADMIN_PASSWORD w pliku .env}
+      TRUST_PROXY: ${TRUST_PROXY:-}
+    volumes:
+      - santa-data:/app/data
+    stop_grace_period: 30s
+
+volumes:
+  santa-data:

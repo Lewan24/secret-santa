@@ -1,0 +1,668 @@
+[
+  {
+    "src": "https://media.giphy.com/media/l2JhGa1nx4ir3zj20/giphy.gif",
+    "poster": "https://media.giphy.com/media/l2JhGa1nx4ir3zj20/giphy_s.gif",
+    "type": "gif",
+    "alt": "Tańczący, okrągły Mikołaj",
+    "caption": "Ja, kiedy udało się kupić prezent przed 24 grudnia.",
+    "icon": "🕺",
+    "credit": "Noam Sussman / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/animation-funny-dance-l2JhGa1nx4ir3zj20"
+  },
+  {
+    "src": "https://media.giphy.com/media/xTk9ZLRMhW9wrSUf4c/giphy.gif",
+    "poster": "https://media.giphy.com/media/xTk9ZLRMhW9wrSUf4c/giphy_s.gif",
+    "type": "gif",
+    "alt": "Mikołaj rozrzucający świąteczne cukierki",
+    "caption": "Budżet: 100 zł. Mój wewnętrzny Mikołaj: a może jeszcze jeden drobiazg?",
+    "icon": "🍬",
+    "credit": "Mauro Gatti / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-xmas-santa-claus-xTk9ZLRMhW9wrSUf4c"
+  },
+  {
+    "src": "https://media.giphy.com/media/KzKHlzSlfHZV44EdTy/giphy.gif",
+    "poster": "https://media.giphy.com/media/KzKHlzSlfHZV44EdTy/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kot w świątecznym nastroju",
+    "caption": "Kot: choinka to po prostu drapak z pakietem premium.",
+    "icon": "🐈",
+    "credit": "JustViral / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/justviralnet-cat-mood-festive-KzKHlzSlfHZV44EdTy"
+  },
+  {
+    "src": "/assets/jokes/reindeer.svg",
+    "type": "image",
+    "alt": "Zmęczony renifer z kubkiem kawy",
+    "caption": "Renifer po spotkaniu, które mogło być listem do Mikołaja.",
+    "icon": "☕",
+    "credit": "Pracownia elfów"
+  },
+  {
+    "src": "/assets/jokes/cat.svg",
+    "type": "image",
+    "alt": "Kot przy przewróconej choince udający niewinnego",
+    "caption": "Nie dotykałem choinki. Ona po prostu potrzebowała się położyć.",
+    "icon": "🎄",
+    "credit": "Pracownia elfów"
+  },
+  {
+    "src": "https://media.giphy.com/media/A4Gyd65FncFJgpWsGm/giphy.gif",
+    "poster": "https://media.giphy.com/media/A4Gyd65FncFJgpWsGm/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kevin z filmu Kevin sam w domu, reakcja na nieprzewidzianą sytuację",
+    "caption": "Kiedy jest 24 grudnia, a Ty orientujesz się, że prezent nadal jest w koszyku.",
+    "icon": "😱",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-homealone-25-days-of-christmas-A4Gyd65FncFJgpWsGm"
+  },
+  {
+    "src": "https://media.giphy.com/media/D28t0Rto3daKI/giphy.gif",
+    "poster": "https://media.giphy.com/media/D28t0Rto3daKI/giphy_s.gif",
+    "type": "gif",
+    "alt": "Grinch patrzący z wyraźnym znudzeniem",
+    "caption": "Moja twarz, gdy ciocia po raz szósty pyta, kiedy w końcu kogoś sobie znajdę.",
+    "icon": "🙄",
+    "credit": "The Good Films / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/thegoodfilms-christmas-vintage-cartoon-D28t0Rto3daKI"
+  },
+  {
+    "src": "https://media.giphy.com/media/qSERCQz7PNtgMAetiP/giphy.gif",
+    "poster": "https://media.giphy.com/media/qSERCQz7PNtgMAetiP/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animowany kot i świąteczna katastrofa z choinką",
+    "caption": "Kot po usłyszeniu, że choinka kosztowała 400 zł: ciekawe, jak szybko spada.",
+    "icon": "🐈",
+    "credit": "William Garratt / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-xmas-tree-qSERCQz7PNtgMAetiP"
+  },
+  {
+    "src": "https://media.giphy.com/media/3o7TKLHb0PWRNnoVq0/giphy.gif",
+    "poster": "https://media.giphy.com/media/3o7TKLHb0PWRNnoVq0/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kevin z filmu Kevin sam w domu, złośliwe świąteczne życzenia",
+    "caption": "Ja, kiedy ktoś mówi, że w tym roku nie będzie Kevina w telewizji.",
+    "icon": "📺",
+    "credit": "20th Century Fox Home Entertainment / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/foxhomeent-3o7TKLHb0PWRNnoVq0"
+  },
+  {
+    "src": "https://media.giphy.com/media/fQVSJFYHUziMZqS8mN/giphy.gif",
+    "poster": "https://media.giphy.com/media/fQVSJFYHUziMZqS8mN/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna animacja o jedzeniu pierników i przejedzeniu",
+    "caption": "Ja: tylko spróbuję jednego pierniczka. Również ja, 40 pierniczków później:",
+    "icon": "🍪",
+    "credit": "conillo / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-eating-conillo-fQVSJFYHUziMZqS8mN"
+  },
+  {
+    "src": "https://media.giphy.com/media/ekjmoAEdRQs3qdFYA8/giphy.gif",
+    "poster": "https://media.giphy.com/media/ekjmoAEdRQs3qdFYA8/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna reakcja związana z dużą ilością jedzenia",
+    "caption": "Babcia: zjedz jeszcze trochę, przecież nic nie jadłeś. Ja po jedenastym pierogu:",
+    "icon": "🥟",
+    "credit": "Robert E Blackmon / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/RobertEBlackmon-food-eat-stuffed-ekjmoAEdRQs3qdFYA8"
+  },
+  {
+    "src": "https://media.giphy.com/media/S6O2GuDzHJCoVD7NFm/giphy.gif",
+    "poster": "https://media.giphy.com/media/S6O2GuDzHJCoVD7NFm/giphy_s.gif",
+    "type": "gif",
+    "alt": "Mikołaj w okularach i sportowym stroju wykonujący taniec",
+    "caption": "Ja po zapakowaniu prezentu, który wygląda jak ziemniak zawinięty w folię, ale przynajmniej jest zapakowany.",
+    "icon": "🕺",
+    "credit": "Animanias / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/SportsManias-santa-merry-christmas-claus-S6O2GuDzHJCoVD7NFm"
+  },
+  {
+    "src": "https://media.giphy.com/media/3o6fJfMl1vdMZ6lsVG/giphy.gif",
+    "poster": "https://media.giphy.com/media/3o6fJfMl1vdMZ6lsVG/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animacja prezentu i rozczarowania świąteczną niespodzianką",
+    "caption": "Kiedy w Secret Santa napisałeś, że lubisz elektronikę, i dostajesz baterie AA.",
+    "icon": "🎁",
+    "credit": "Ethan Barnowsky / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-surprise-holiday-3o6fJfMl1vdMZ6lsVG"
+  },
+  {
+    "src": "https://media.giphy.com/media/AZ9lihI04dn5m/giphy.gif",
+    "poster": "https://media.giphy.com/media/AZ9lihI04dn5m/giphy_s.gif",
+    "type": "gif",
+    "alt": "Grinch w stroju Mikołaja z przebiegłym uśmiechem",
+    "caption": "Ja, kiedy w Secret Santa wylosowałem osobę, która rok temu dała mi żel pod prysznic.",
+    "icon": "😈",
+    "credit": "The Good Films / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/thegoodfilms-the-grinch-film-christmas-AZ9lihI04dn5m"
+  },
+  {
+    "src": "https://media.giphy.com/media/l3fzK83MijY4y3hba/giphy.gif",
+    "poster": "https://media.giphy.com/media/l3fzK83MijY4y3hba/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna animacja elfa jedzącego ciasteczka",
+    "caption": "Mama: nie ruszaj, to na święta. Ja przechodzący obok pierników po raz siedemnasty:",
+    "icon": "🍪",
+    "credit": "Whatevergroup Finland / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/food-christmas-hungry-l3fzK83MijY4y3hba"
+  },
+  {
+    "src": "https://media.giphy.com/media/161QUHHe6ZsmGDSH4V/giphy.gif",
+    "poster": "https://media.giphy.com/media/161QUHHe6ZsmGDSH4V/giphy_s.gif",
+    "type": "gif",
+    "alt": "Marv z filmu Kevin sam w Nowym Jorku porażony prądem",
+    "caption": "Tata, kiedy próbuje naprawić lampki choinkowe pamiętające jeszcze denominację złotego.",
+    "icon": "⚡",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-2-homealone2-161QUHHe6ZsmGDSH4V"
+  },
+  {
+    "src": "https://media.giphy.com/media/3oriOfSOyqWpNPnxg4/giphy.gif",
+    "poster": "https://media.giphy.com/media/3oriOfSOyqWpNPnxg4/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animowana choinka zmieniająca się w Mikołaja",
+    "caption": "Kiedy wchodzisz do sklepu po mleko, a wychodzisz z bombkami, reniferem i kolejnym kompletem lampek.",
+    "icon": "🎄",
+    "credit": "Mauro Gatti / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-holiday-santa-3oriOfSOyqWpNPnxg4"
+  },
+  {
+    "src": "https://media.giphy.com/media/34qYWvPeDKBNe/giphy.gif",
+    "poster": "https://media.giphy.com/media/34qYWvPeDKBNe/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna reakcja rozczarowania",
+    "caption": "Kiedy wszyscy dostają prezenty z listy życzeń, a Ty otwierasz trzeci kubek z napisem Najlepszy człowiek.",
+    "icon": "☕",
+    "credit": "RETROFUNK / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/retrofunk-christmas-afv-disappointment-34qYWvPeDKBNe"
+  },
+  {
+    "src": "https://media.giphy.com/media/FPFpsqZNLFrT2vDJs6/giphy.gif",
+    "poster": "https://media.giphy.com/media/FPFpsqZNLFrT2vDJs6/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zabawna świąteczna animacja taneczna",
+    "caption": "Ja po znalezieniu ostatniego majonezu w Biedronce 23 grudnia.",
+    "icon": "🏆",
+    "credit": "Cappa Video Productions / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/party-time-hell-yeah-lets-dance-FPFpsqZNLFrT2vDJs6"
+  },
+  {
+    "src": "https://media.giphy.com/media/nxIb6orQfYw0M/giphy.gif",
+    "poster": "https://media.giphy.com/media/nxIb6orQfYw0M/giphy_s.gif",
+    "type": "gif",
+    "alt": "Pusheen i świąteczna choinka",
+    "caption": "Kot, kiedy widzi ładnie udekorowaną choinkę: szkoda by było, gdyby coś się z nią stało.",
+    "icon": "🐈",
+    "credit": "Pusheen / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/cat-kitty-pusheen-nxIb6orQfYw0M"
+  },
+  {
+    "src": "https://media.giphy.com/media/l3mZ1EQxnwjsan4Ag/giphy.gif",
+    "poster": "https://media.giphy.com/media/l3mZ1EQxnwjsan4Ag/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna animacja z upadkiem i zamieszaniem",
+    "caption": "Ja, kiedy ktoś mówi, że do świąt jeszcze dużo czasu, a kalendarz pokazuje 23 grudnia.",
+    "icon": "💥",
+    "credit": "Whatevergroup Finland / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/everwhatproductions-fun-christmas-l3mZ1EQxnwjsan4Ag"
+  },
+  {
+    "src": "https://media.giphy.com/media/r6vs6u9NngyiANYCRI/giphy.gif",
+    "poster": "https://media.giphy.com/media/r6vs6u9NngyiANYCRI/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kevin z Home Alone machający na powitanie",
+    "caption": "Ja wchodzący na Wigilię, jakbym nie zjadł już połowy ciasta w kuchni.",
+    "icon": "👋",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-homealone-25-days-of-christmas-r6vs6u9NngyiANYCRI"
+  },
+  {
+    "src": "https://media.giphy.com/media/vfsAZnqDvoHzUpMPY4/giphy.gif",
+    "poster": "https://media.giphy.com/media/vfsAZnqDvoHzUpMPY4/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kevin z Home Alone witający się z uśmiechem",
+    "caption": "Kiedy ciocia pyta, czy coś zjesz, a Ty już siedzisz przy stole od 20 minut.",
+    "icon": "🍽️",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-homealone-25-days-of-christmas-vfsAZnqDvoHzUpMPY4"
+  },
+  {
+    "src": "https://media.giphy.com/media/aI0YeruW3fvDcwmfQR/giphy.gif",
+    "poster": "https://media.giphy.com/media/aI0YeruW3fvDcwmfQR/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zaskoczony Kevin z Home Alone",
+    "caption": "Kiedy mama mówi, że w tym roku robimy tylko skromne święta, a na stole stoi 27 rzeczy.",
+    "icon": "😳",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-homealone-25-days-of-christmas-aI0YeruW3fvDcwmfQR"
+  },
+  {
+    "src": "https://media.giphy.com/media/26tkl6oesuCt5akbC/giphy.gif",
+    "poster": "https://media.giphy.com/media/26tkl6oesuCt5akbC/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kevin z Home Alone w śniegu",
+    "caption": "Ja wychodzący 23 grudnia do sklepu po jedną rzecz, której oczywiście już nie ma.",
+    "icon": "🛒",
+    "credit": "20th Century Fox Home Entertainment / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/foxhomeent-christmas-snow-26tkl6oesuCt5akbC"
+  },
+  {
+    "src": "https://media.giphy.com/media/xT0xeDCY9dcGhJ2JG0/giphy.gif",
+    "poster": "https://media.giphy.com/media/xT0xeDCY9dcGhJ2JG0/giphy_s.gif",
+    "type": "gif",
+    "alt": "Wet Bandits z Home Alone w świątecznym chaosie",
+    "caption": "Ja i kuzyn próbujący rozplątać lampki, które same się na pewno nie zaplątały.",
+    "icon": "💡",
+    "credit": "Home Alone / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/homealone-christmas-home-alone-2-xT0xeDCY9dcGhJ2JG0"
+  },
+  {
+    "src": "https://media.giphy.com/media/3o6fJ9hWCpExu5xN1S/giphy.gif",
+    "poster": "https://media.giphy.com/media/3o6fJ9hWCpExu5xN1S/giphy_s.gif",
+    "type": "gif",
+    "alt": "Wet Bandits w zabawnym świątecznym kadrze",
+    "caption": "Kiedy mówisz, że pomożesz przy świętach, a kończysz z trzema reklamówkami i stresem.",
+    "icon": "🧰",
+    "credit": "Home Alone / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/homealone-christmas-home-alone-2-3o6fJ9hWCpExu5xN1S"
+  },
+  {
+    "src": "https://media.giphy.com/media/I6SAWbc9vksg0/giphy.gif",
+    "poster": "https://media.giphy.com/media/I6SAWbc9vksg0/giphy_s.gif",
+    "type": "gif",
+    "alt": "Grinch w klasycznej animacji",
+    "caption": "Moja mina, kiedy ktoś mówi, że sałatka jarzynowa jest przereklamowana.",
+    "icon": "😒",
+    "credit": "The Good Films / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/thegoodfilms-vintage-cartoon-christmas-I6SAWbc9vksg0"
+  },
+  {
+    "src": "https://media.giphy.com/media/w2r2sFtbcxBnls7VVi/giphy.gif",
+    "poster": "https://media.giphy.com/media/w2r2sFtbcxBnls7VVi/giphy_s.gif",
+    "type": "gif",
+    "alt": "Grinch w świątecznym nastroju",
+    "caption": "Ja, kiedy słyszę, że po Wigilii jedziemy jeszcze w odwiedziny do drugiej części rodziny.",
+    "icon": "🚗",
+    "credit": "Sidneyloohoo / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-grinch-jolly-w2r2sFtbcxBnls7VVi"
+  },
+  {
+    "src": "https://media.giphy.com/media/h7upR2excyYX44EANs/giphy.gif",
+    "poster": "https://media.giphy.com/media/h7upR2excyYX44EANs/giphy_s.gif",
+    "type": "gif",
+    "alt": "Przebrany Grinch z komiczną reakcją",
+    "caption": "Ja zakładający świąteczny sweter, którego sam bym nikomu nie kupił.",
+    "icon": "🧥",
+    "credit": "Johnny Slicks / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/JohnnySlicks-funny-dress-johnny-slicks-h7upR2excyYX44EANs"
+  },
+  {
+    "src": "https://media.giphy.com/media/4M7Sj5LkX4izbFcwg8/giphy.gif",
+    "poster": "https://media.giphy.com/media/4M7Sj5LkX4izbFcwg8/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animowany Grinch w świątecznej odsłonie",
+    "caption": "Kiedy ktoś znowu pyta, czy naprawdę nie chcesz już nic do jedzenia.",
+    "icon": "🍰",
+    "credit": "ARTA LIMA / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-greetings-grinch-4M7Sj5LkX4izbFcwg8"
+  },
+  {
+    "src": "https://media.giphy.com/media/qSERCQz7PNtgMAetiP/giphy.gif",
+    "poster": "https://media.giphy.com/media/qSERCQz7PNtgMAetiP/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kot demolujący choinkę",
+    "caption": "Kot po trzech sekundach od ubrania choinki: zaczynamy sezon sportowy.",
+    "icon": "🐈",
+    "credit": "William Garratt / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-xmas-tree-qSERCQz7PNtgMAetiP"
+  },
+  {
+    "src": "https://media.giphy.com/media/L1So7Yy2abY5ohqiKn/giphy.gif",
+    "poster": "https://media.giphy.com/media/L1So7Yy2abY5ohqiKn/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kot przy świątecznej choince",
+    "caption": "Choinka wygląda pięknie przez dokładnie tyle czasu, ile kot śpi.",
+    "icon": "🎄",
+    "credit": "Sophieaillustration / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/cat-christmas-kitty-L1So7Yy2abY5ohqiKn"
+  },
+  {
+    "src": "https://media.giphy.com/media/nxIb6orQfYw0M/giphy.gif",
+    "poster": "https://media.giphy.com/media/nxIb6orQfYw0M/giphy_s.gif",
+    "type": "gif",
+    "alt": "Pusheen przy choince",
+    "caption": "Ja udający niewinnego po zjedzeniu ostatniego kawałka sernika.",
+    "icon": "🍰",
+    "credit": "Pusheen / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/cat-kitty-pusheen-nxIb6orQfYw0M"
+  },
+  {
+    "src": "https://media.giphy.com/media/fQVSJFYHUziMZqS8mN/giphy.gif",
+    "poster": "https://media.giphy.com/media/fQVSJFYHUziMZqS8mN/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animacja z jedzeniem świątecznych ciastek",
+    "caption": "Ja, kiedy mówię że spróbuję tylko jednego pierniczka, a potem znikają wszystkie.",
+    "icon": "🍪",
+    "credit": "conillo / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-eating-conillo-fQVSJFYHUziMZqS8mN"
+  },
+  {
+    "src": "https://media.giphy.com/media/ekjmoAEdRQs3qdFYA8/giphy.gif",
+    "poster": "https://media.giphy.com/media/ekjmoAEdRQs3qdFYA8/giphy_s.gif",
+    "type": "gif",
+    "alt": "Reakcja przejedzenia po świątecznym jedzeniu",
+    "caption": "Babcia po raz ósmy: zjedz jeszcze. Ja po dwunastym pierogu: już widzę przyszłość.",
+    "icon": "🥟",
+    "credit": "Robert E Blackmon / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/RobertEBlackmon-food-eat-stuffed-ekjmoAEdRQs3qdFYA8"
+  },
+  {
+    "src": "https://media.giphy.com/media/l3fzK83MijY4y3hba/giphy.gif",
+    "poster": "https://media.giphy.com/media/l3fzK83MijY4y3hba/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczne podjadanie ciasteczek",
+    "caption": "Mama: nie ruszaj, to dla gości. Ja: przecież ja też tu jestem gościem.",
+    "icon": "🍪",
+    "credit": "Whatevergroup Finland / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/food-christmas-hungry-l3fzK83MijY4y3hba"
+  },
+  {
+    "src": "https://media.giphy.com/media/S6O2GuDzHJCoVD7NFm/giphy.gif",
+    "poster": "https://media.giphy.com/media/S6O2GuDzHJCoVD7NFm/giphy_s.gif",
+    "type": "gif",
+    "alt": "Tańczący Mikołaj w sportowym stylu",
+    "caption": "Ja, kiedy udało się zapakować prezent i nawet nie wygląda jak kartofel.",
+    "icon": "🕺",
+    "credit": "SportsManias / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/SportsManias-santa-merry-christmas-claus-S6O2GuDzHJCoVD7NFm"
+  },
+  {
+    "src": "https://media.giphy.com/media/FPFpsqZNLFrT2vDJs6/giphy.gif",
+    "poster": "https://media.giphy.com/media/FPFpsqZNLFrT2vDJs6/giphy_s.gif",
+    "type": "gif",
+    "alt": "Entuzjastyczny taneczny gif",
+    "caption": "Ja po znalezieniu wolnego miejsca parkingowego pod galerią handlową 23 grudnia.",
+    "icon": "🚗",
+    "credit": "Cappa Video Productions / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/party-time-hell-yeah-lets-dance-FPFpsqZNLFrT2vDJs6"
+  },
+  {
+    "src": "https://media.giphy.com/media/3oriOfSOyqWpNPnxg4/giphy.gif",
+    "poster": "https://media.giphy.com/media/3oriOfSOyqWpNPnxg4/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna animacja choinki i Mikołaja",
+    "caption": "Kiedy wchodzisz po jedną ozdobę, a wracasz z połową działu świątecznego.",
+    "icon": "🛍️",
+    "credit": "Mauro Gatti / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/christmas-holiday-santa-3oriOfSOyqWpNPnxg4"
+  },
+  {
+    "src": "https://media.giphy.com/media/34qYWvPeDKBNe/giphy.gif",
+    "poster": "https://media.giphy.com/media/34qYWvPeDKBNe/giphy_s.gif",
+    "type": "gif",
+    "alt": "Reakcja rozczarowania świątecznym prezentem",
+    "caption": "Kiedy otwierasz prezent i już po minie rodziny wiesz, że musisz udawać zachwyt.",
+    "icon": "🎁",
+    "credit": "RETROFUNK / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/retrofunk-christmas-afv-disappointment-34qYWvPeDKBNe"
+  },
+  {
+    "src": "https://media.giphy.com/media/161QUHHe6ZsmGDSH4V/giphy.gif",
+    "poster": "https://media.giphy.com/media/161QUHHe6ZsmGDSH4V/giphy_s.gif",
+    "type": "gif",
+    "alt": "Marv porażony prądem z Home Alone 2",
+    "caption": "Tata testujący lampki choinkowe, które były schowane od 2007 roku.",
+    "icon": "⚡",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-home-alone-2-homealone2-161QUHHe6ZsmGDSH4V"
+  },
+  {
+    "src": "https://media.giphy.com/media/l3mZ1EQxnwjsan4Ag/giphy.gif",
+    "poster": "https://media.giphy.com/media/l3mZ1EQxnwjsan4Ag/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animowany świąteczny chaos i upadek",
+    "caption": "Ja, kiedy 24 grudnia przypominam sobie, że nie kupiłem papieru do pakowania.",
+    "icon": "💥",
+    "credit": "Whatevergroup Finland / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/everwhatproductions-fun-christmas-l3mZ1EQxnwjsan4Ag"
+  },
+  {
+    "src": "https://media.giphy.com/media/pHLkXInbVZncyFNPUL/giphy.gif",
+    "poster": "https://media.giphy.com/media/pHLkXInbVZncyFNPUL/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna reakcja w stylu Home Alone",
+    "caption": "Moja twarz, gdy ktoś mówi, że może w tym roku nie oglądamy Kevina.",
+    "icon": "📺",
+    "credit": "Creative Courage / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/creative-courage-jazminantoinette-pHLkXInbVZncyFNPUL"
+  },
+  {
+    "src": "https://media.giphy.com/media/3oKIPqf3f1dPlfrDry/giphy.gif",
+    "poster": "https://media.giphy.com/media/3oKIPqf3f1dPlfrDry/giphy_s.gif",
+    "type": "gif",
+    "alt": "Radosny Kevin z Home Alone",
+    "caption": "Ja, kiedy okazuje się, że jednak ktoś przyniósł jeszcze sernik.",
+    "icon": "🎂",
+    "credit": "20th Century Fox Home Entertainment / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/foxhomeent-fox-movies-home-entertainment-3oKIPqf3f1dPlfrDry"
+  },
+  {
+    "src": "https://media.giphy.com/media/xT9IgGm3x1h8SpacZa/giphy.gif",
+    "poster": "https://media.giphy.com/media/xT9IgGm3x1h8SpacZa/giphy_s.gif",
+    "type": "gif",
+    "alt": "Mikołaj jedzący z ogromnym apetytem",
+    "caption": "Babcia: zjedz jeszcze pierożka. Ja po 14 pierogach, barszczu, rybie i trzech kawałkach sernika:",
+    "icon": "🥟",
+    "credit": "Whatevergroup Finland / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/everwhatproductions-xT9IgGm3x1h8SpacZa"
+  },
+  {
+    "src": "https://media.giphy.com/media/3osBLq0CAclUYfNPwc/giphy.gif",
+    "poster": "https://media.giphy.com/media/3osBLq0CAclUYfNPwc/giphy_s.gif",
+    "type": "gif",
+    "alt": "Elf w kuchni podczas przygotowywania jedzenia",
+    "caption": "Mama: tylko niczego nie ruszaj, to na Wigilię. Ja pięć minut później, kiedy nikt nie patrzy:",
+    "icon": "🍪",
+    "credit": "The Elves! / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/everwhatproductions-christmas-cooking-3osBLq0CAclUYfNPwc"
+  },
+  {
+    "src": "https://media.giphy.com/media/LwDouQz95yMqVm9iHA/giphy.gif",
+    "poster": "https://media.giphy.com/media/LwDouQz95yMqVm9iHA/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zmęczony Grinch budzący się rano",
+    "caption": "Ja 25 grudnia o 8:00, kiedy rodzina uznaje, że skoro są święta, to trzeba wcześnie wstać i wspólnie posiedzieć.",
+    "icon": "😴",
+    "credit": "The Grinch / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/grinchmovie-the-grinch-movie-LwDouQz95yMqVm9iHA"
+  },
+  {
+    "src": "https://media.giphy.com/media/pkAgj4y0ruKRhSwtH9/giphy.gif",
+    "poster": "https://media.giphy.com/media/pkAgj4y0ruKRhSwtH9/giphy_s.gif",
+    "type": "gif",
+    "alt": "Grinch w niezręcznej sytuacji",
+    "caption": "Kiedy przy stole zapada cisza, a wujek zaczyna zdanie od: ja tam się na polityce nie znam, ale...",
+    "icon": "👀",
+    "credit": "Sleeping Giant Media / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/sleepinggiant-christmas-happy-holidays-pkAgj4y0ruKRhSwtH9"
+  },
+  {
+    "src": "https://media.giphy.com/media/gI0hZFCCYGYTH9a0uT/giphy.gif",
+    "poster": "https://media.giphy.com/media/gI0hZFCCYGYTH9a0uT/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kot i świąteczna choinka w zabawnej scenie",
+    "caption": "Kot po usłyszeniu, że w tym roku choinka będzie przywiązana do kaloryfera: traktuję to jako wyzwanie.",
+    "icon": "🐈",
+    "credit": "James Koroni / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/cat-sassy-gato-gI0hZFCCYGYTH9a0uT"
+  },
+  {
+    "src": "https://media.giphy.com/media/XXxtW6PMiu1q7UjLlr/giphy.gif",
+    "poster": "https://media.giphy.com/media/XXxtW6PMiu1q7UjLlr/giphy_s.gif",
+    "type": "gif",
+    "alt": "Kot przy świątecznej choince",
+    "caption": "Rodzina: w tym roku ubierzemy choinkę wcześniej. Kot: czyli sezon rozgrywkowy też zaczyna się wcześniej.",
+    "icon": "🎄",
+    "credit": "Bonds Aus / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/BONDSAUS-bonds-bondsaus-bondsaustralia-XXxtW6PMiu1q7UjLlr"
+  },
+  {
+    "src": "https://media.giphy.com/media/aEJJiZ2BvyjWjBoK9C/giphy.gif",
+    "poster": "https://media.giphy.com/media/aEJJiZ2BvyjWjBoK9C/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zabawna animowana choinka z kotem",
+    "caption": "Choinka w domu z kotem. Dzień pierwszy: stoi. Dzień drugi: prowadzimy postępowanie wyjaśniające.",
+    "icon": "🐱",
+    "credit": "Sappy Seals / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/SappySeals-seal-seals-sappy-aEJJiZ2BvyjWjBoK9C"
+  },
+  {
+    "src": "https://media.giphy.com/media/dVizOCx9UAtLSVsT9g/giphy.gif",
+    "poster": "https://media.giphy.com/media/dVizOCx9UAtLSVsT9g/giphy_s.gif",
+    "type": "gif",
+    "alt": "Przygotowywanie pieczonych ziemniaków",
+    "caption": "Mama: w tym roku robimy mniej jedzenia. Też mama: czy pięć kilogramów ziemniaków wystarczy do ryby?",
+    "icon": "🥔",
+    "credit": "Jamie Oliver / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/JamieOliver-roast-jamie-oliver-christmas-dinner-dVizOCx9UAtLSVsT9g"
+  },
+  {
+    "src": "https://media.giphy.com/media/MVhOFkMYrL58Auvy6r/giphy.gif",
+    "poster": "https://media.giphy.com/media/MVhOFkMYrL58Auvy6r/giphy_s.gif",
+    "type": "gif",
+    "alt": "Ojciec próbujący zapakować świąteczny prezent",
+    "caption": "Ja pakujący prezent 24 grudnia o 16:47. Papier za krótki, taśma się skończyła, a godność została w listopadzie.",
+    "icon": "🎁",
+    "credit": "ViralHog / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/viralhog-viral-hog-dad-tries-to-wrap-christmas-present-MVhOFkMYrL58Auvy6r"
+  },
+  {
+    "src": "https://media.giphy.com/media/l4Ep3xjSES9JcyeqI/giphy.gif",
+    "poster": "https://media.giphy.com/media/l4Ep3xjSES9JcyeqI/giphy_s.gif",
+    "type": "gif",
+    "alt": "Nieudane pakowanie prezentu",
+    "caption": "Na TikToku pakowali to w 15 sekund. Ja od pół godziny próbuję znaleźć koniec taśmy klejącej.",
+    "icon": "📦",
+    "credit": "evite / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/present-wrapping-gifts-l4Ep3xjSES9JcyeqI"
+  },
+  {
+    "src": "https://media.giphy.com/media/3ohzdIYVhA6os74coM/giphy.gif",
+    "poster": "https://media.giphy.com/media/3ohzdIYVhA6os74coM/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zabawna reakcja na brak pieniędzy",
+    "caption": "Ja po kupieniu prezentów dla wszystkich. Na koncie 7,42 zł, ale za to mam świąteczną atmosferę.",
+    "icon": "💸",
+    "credit": "Much / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/much-broke-no-money-3ohzdIYVhA6os74coM"
+  },
+  {
+    "src": "https://media.giphy.com/media/d3mmdNnW5hkoUxTG/giphy.gif",
+    "poster": "https://media.giphy.com/media/d3mmdNnW5hkoUxTG/giphy_s.gif",
+    "type": "gif",
+    "alt": "Animacja wydawania pieniędzy podczas zakupów",
+    "caption": "Limit Secret Santa: 50 zł. Ja po znalezieniu idealnego prezentu za 189 zł: raz się żyje.",
+    "icon": "💳",
+    "credit": "Jacqueline Jing Lin / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/glitch-money-shopping-d3mmdNnW5hkoUxTG"
+  },
+  {
+    "src": "https://media.giphy.com/media/vxviCksA2jzMmiyQiz/giphy.gif",
+    "poster": "https://media.giphy.com/media/vxviCksA2jzMmiyQiz/giphy_s.gif",
+    "type": "gif",
+    "alt": "Mikołaj reagujący na świąteczną pomyłkę",
+    "caption": "Kiedy po wręczeniu prezentu odkrywasz, że w pudełku został paragon. Razem z ceną.",
+    "icon": "😬",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-santa-claus-thesantaclause3-the-clause-3-vxviCksA2jzMmiyQiz"
+  },
+  {
+    "src": "https://media.giphy.com/media/lld24bEGoIhGO7genj/giphy.gif",
+    "poster": "https://media.giphy.com/media/lld24bEGoIhGO7genj/giphy_s.gif",
+    "type": "gif",
+    "alt": "Rozczarowany Mikołaj",
+    "caption": "Kiedy w Secret Santa prosisz o książkę, a dostajesz zestaw kosmetyków 3 w 1. Do włosów, ciała i rozczarowania.",
+    "icon": "🧴",
+    "credit": "Robert E Blackmon / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/RobertEBlackmon-elf-christmas-prank-lump-of-coal-lld24bEGoIhGO7genj"
+  },
+  {
+    "src": "https://media.giphy.com/media/ncfmxEZGCTI8H4yHxa/giphy.gif",
+    "poster": "https://media.giphy.com/media/ncfmxEZGCTI8H4yHxa/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna reakcja na zakupy prezentowe",
+    "caption": "Ja wchodzący do galerii 23 grudnia po prezenty, bo przecież jeszcze jest mnóstwo czasu.",
+    "icon": "🛍️",
+    "credit": "Robert E Blackmon / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/RobertEBlackmon-christmas-santa-gift-ncfmxEZGCTI8H4yHxa"
+  },
+  {
+    "src": "https://media.giphy.com/media/9JnU6uRRblKM3hGzu3/giphy.gif",
+    "poster": "https://media.giphy.com/media/9JnU6uRRblKM3hGzu3/giphy_s.gif",
+    "type": "gif",
+    "alt": "Mikołaj ze świątecznym prezentem",
+    "caption": "Kiedy wylosujesz osobę, która ma listę życzeń, rozmiary, linki do sklepów i jeszcze zaznaczone kolory. Kocham takich ludzi.",
+    "icon": "🎅",
+    "credit": "Macy's / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/macys-9JnU6uRRblKM3hGzu3"
+  },
+  {
+    "src": "https://media.giphy.com/media/mXLbMicDGxNrSvzpgw/giphy.gif",
+    "poster": "https://media.giphy.com/media/mXLbMicDGxNrSvzpgw/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna wpadka z prezentem",
+    "caption": "Kiedy ktoś przy rozpakowywaniu prezentu mówi: o, dokładnie takie coś już mam!",
+    "icon": "🙃",
+    "credit": "BuzzFeed / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/buzzfeed-christmas-fail-kids-mXLbMicDGxNrSvzpgw"
+  },
+  {
+    "src": "https://media.giphy.com/media/l0MYyd0LeyjKJ8Yak/giphy.gif",
+    "poster": "https://media.giphy.com/media/l0MYyd0LeyjKJ8Yak/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zabawna scena pakowania prezentu świątecznego",
+    "caption": "Kiedy pakujesz prezent dla szefa i nagle przypominasz sobie, że przez cały rok narzekałeś na niego przy ekspresie.",
+    "icon": "🎀",
+    "credit": "CBS / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/cbs-lifeinpieces-l0MYyd0LeyjKJ8Yak"
+  },
+  {
+    "src": "https://media.giphy.com/media/xxLXODWxLkIUkhBI5F/giphy.gif",
+    "poster": "https://media.giphy.com/media/xxLXODWxLkIUkhBI5F/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczne zakupy",
+    "caption": "Kiedy masz kupić jeden prezent, ale akurat w Rossmannie jest promocja 2+1. Trudno, los tak chciał.",
+    "icon": "🛒",
+    "credit": "BuzzFeed / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/buzzfeed-christmas-shopping-holidays-xxLXODWxLkIUkhBI5F"
+  },
+  {
+    "src": "https://media.giphy.com/media/QvoW8brQ2EUruvnsbj/giphy.gif",
+    "poster": "https://media.giphy.com/media/QvoW8brQ2EUruvnsbj/giphy_s.gif",
+    "type": "gif",
+    "alt": "Świąteczna animacja zakupowa",
+    "caption": "Ja kupujący prezent w listopadzie. Czuję się jak finansowy geniusz. Potem i tak dokupuję pięć rzeczy w grudniu.",
+    "icon": "🎄",
+    "credit": "CuteAnimations / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/QvoW8brQ2EUruvnsbj"
+  },
+  {
+    "src": "https://media.giphy.com/media/kOq44PzOl5kd13ffd8/giphy.gif",
+    "poster": "https://media.giphy.com/media/kOq44PzOl5kd13ffd8/giphy_s.gif",
+    "type": "gif",
+    "alt": "Komiczna scena z filmu Kevin sam w domu",
+    "caption": "Moja reakcja, kiedy ktoś mówi, że kupił prezent na Secret Santa za 12 zł, bo przecież limit to maksymalnie 100.",
+    "icon": "🤨",
+    "credit": "Freeform / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/freeform-christmas-25-days-of-25daysofchristmas-kOq44PzOl5kd13ffd8"
+  },
+  {
+    "src": "https://media.giphy.com/media/40cxvsne9BEGRq9GUm/giphy.gif",
+    "poster": "https://media.giphy.com/media/40cxvsne9BEGRq9GUm/giphy_s.gif",
+    "type": "gif",
+    "alt": "Zmęczony Mikołaj",
+    "caption": "Ja po sześciu godzinach szukania idealnego prezentu. W koszyku jedna świeczka i trzy rzeczy dla siebie.",
+    "icon": "😴",
+    "credit": "molehill / GIPHY",
+    "sourceUrl": "https://giphy.com/gifs/40cxvsne9BEGRq9GUm"
+  }
+]
