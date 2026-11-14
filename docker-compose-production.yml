@@ -1,0 +1,21 @@
+services:
+  secret-santa:
+    image: lewan24/secret-santa:latest
+    container_name: secret-santa
+    restart: unless-stopped
+    init: true
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATA_DIR: /app/data
+      PUBLIC_BASE_URL: "https://secretsanta.example.pl"
+      ADMIN_PASSWORD: "SecretSantaPassword123!ChangeME!"
+      TRUST_PROXY: ${TRUST_PROXY:-}
+    volumes:
+      - santa-data:/app/data
+    stop_grace_period: 30s
+
+volumes:
+  santa-data:
