@@ -1,6 +1,13 @@
-import { useCallback, useEffect, useRef, useState, type AnimationEvent } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type AnimationEvent,
+} from "react";
 import { useContentPool } from "../hooks/useContentPool";
-import { pick } from "../lib/random";
+import { fill, pick, usable } from "../lib/random";
 
 type Direction = "ltr" | "rtl";
 interface Flight {
@@ -20,9 +27,12 @@ const wait = ([min, spread]: readonly [number, number]) =>
  * Mikołaj na saniach przelatuje przez ekran raz w jedną, raz w drugą stronę,
  * za każdym razem na innej wysokości i z innym tekstem z puli `santaQuips`.
  */
-export function FlyingSanta() {
+export function FlyingSanta({ name }: { name?: string }) {
   const pool = useContentPool();
-  const quips = pool?.santaQuips;
+  const quips = useMemo(
+    () => pool && usable(pool.santaQuips, name === undefined ? {} : { name }),
+    [pool, name],
+  );
   const [flight, setFlight] = useState<Flight | null>(null);
   const direction = useRef<Direction>(Math.random() < 0.5 ? "ltr" : "rtl");
   const counter = useRef(0);
@@ -35,9 +45,11 @@ export function FlyingSanta() {
       id: ++counter.current,
       dir,
       top: 9 + Math.random() * 28,
-      quip: quips?.length ? pick(quips) : "",
+      quip: quips?.length
+        ? fill(pick(quips), name === undefined ? {} : { name })
+        : "",
     });
-  }, [quips]);
+  }, [quips, name]);
 
   useEffect(() => {
     if (!quips) return;

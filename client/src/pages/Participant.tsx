@@ -3,14 +3,17 @@ import { Gift } from "../components/Gift";
 import { FestiveMeme } from "../components/FestiveMeme";
 import { JokeCard } from "../components/JokeCard";
 import { RevealCard } from "../components/RevealCard";
+import { FlyingSanta } from "../components/FlyingSanta";
+import { useReducedMotion } from "../hooks/useReducedMotion";
 import { useContentPool, usePick } from "../hooks/useContentPool";
 import { useParticipant } from "../hooks/useParticipant";
-import { fill, pick, usable } from "../lib/random";
+import { fill, pick } from "../lib/random";
 
 export function Participant({ quiet }: { quiet: boolean }) {
   const { me, error, phase, result, changed, refreshing, refresh, reveal } =
     useParticipant(quiet);
   const pool = useContentPool();
+  const reduced = useReducedMotion();
   const resultRef = useRef<HTMLHeadingElement>(null);
 
   const greeting = usePick(pool?.greetings);
@@ -21,12 +24,13 @@ export function Participant({ quiet }: { quiet: boolean }) {
   // Nowe odkrycie (także „Pokaż jeszcze raz”) losuje nowy tekst.
   const quip = useMemo(
     () =>
-      pool && result
-        ? fill(pick(usable(pool.revealQuips, { recipient: result.name })), {
+      pool && result && me
+        ? fill(pick(pool.revealQuips), {
+            name: me.name,
             recipient: result.name,
           })
         : "",
-    [pool, result],
+    [pool, result, me?.name],
   );
   const opening = useMemo(
     () => (pool && phase === "opening" ? pick(pool.openingMessages) : ""),
@@ -50,13 +54,18 @@ export function Participant({ quiet }: { quiet: boolean }) {
 
   const status =
     phase === "opening"
-      ? opening
+      ? fill(opening, { name: me.name })
       : !me.ready
-        ? waiting
-        : ready;
+        ? waiting && fill(waiting, { name: me.name })
+        : ready && fill(ready, { name: me.name });
 
   return (
     <main className="participant">
+      {!quiet && !reduced && (
+        <div className="backdrop" aria-hidden="true">
+          <FlyingSanta name={me.name} />
+        </div>
+      )}
       <div className="event-tag">
         <span /> {me.eventName}
       </div>
@@ -120,7 +129,7 @@ export function Participant({ quiet }: { quiet: boolean }) {
           )}
         </>
       )}
-      <JokeCard kind="jokes" />
+      <JokeCard kind="jokes" name={me.name} />
       <FestiveMeme quiet={quiet} celebrate={phase === "revealed"} />
       {error && (
         <p className="error" role="alert">
@@ -130,7 +139,7 @@ export function Participant({ quiet }: { quiet: boolean }) {
       <div className="elf-note">
         <img src={footerImage} alt="" />
         <p>
-          {tip ?? "\u00a0"}
+          {tip ? fill(tip, { name: me.name }) : "\u00a0"}
           <small>Wiadomość z bieguna północnego</small>
         </p>
       </div>

@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useContentPool, usePick } from "../hooks/useContentPool";
-import { another } from "../lib/random";
+import { another, fill, usable } from "../lib/random";
 
 const copy = {
   jokes: {
@@ -18,9 +18,18 @@ const copy = {
 } as const;
 
 /** Karta z losowym żartem lub radą. Przycisk losuje kolejny (innego niż bieżący). */
-export function JokeCard({ kind = "jokes" }: { kind?: "jokes" | "tips" }) {
+export function JokeCard({
+  kind = "jokes",
+  name,
+}: {
+  kind?: "jokes" | "tips";
+  name?: string;
+}) {
   const pool = useContentPool();
-  const list = pool?.[kind];
+  const list = useMemo(
+    () => pool && usable(pool[kind], name === undefined ? {} : { name }),
+    [pool, kind, name],
+  );
   const initial = usePick(list);
   const [chosen, setChosen] = useState<string>();
   const text = chosen ?? initial;
@@ -31,7 +40,7 @@ export function JokeCard({ kind = "jokes" }: { kind?: "jokes" | "tips" }) {
       <div>
         <h2>{labels.title}</h2>
         <p key={text} className={text ? "joke-text" : "joke-text pending"}>
-          {text ?? "\u00a0"}
+          {text ? fill(text, name === undefined ? {} : { name }) : "\u00a0"}
         </p>
         <div className="joke-foot">
           <small>{labels.source}</small>

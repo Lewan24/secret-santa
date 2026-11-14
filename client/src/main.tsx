@@ -39,7 +39,7 @@ function App() {
   return (
     <div className={quiet ? "app quiet" : "app"}>
       <Scene quiet={quiet} />
-      <Backdrop quiet={quiet} santa={!admin} />
+      <Backdrop quiet={quiet} santa={!admin && role !== "participant"} />
       <header>
         <a className="brand" href="/" aria-label="Secret Santa — strona główna">
           <img src="/assets/gift.svg" width="35" height="35" alt="" />

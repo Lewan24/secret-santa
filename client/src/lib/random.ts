@@ -27,13 +27,19 @@ export function another<T>(list: readonly T[], current: T | undefined): T {
 
 /** Podstawia {znaczniki}; nieznane znaczniki zostają bez zmian. */
 export function fill(template: string, vars: Record<string, string>): string {
-  return template.replace(/\{(\w+)\}/g, (match, key: string) => vars[key] ?? match);
+  return template.replace(
+    /\{(\w+)\}/g,
+    (match, key: string) => vars[key] ?? match,
+  );
 }
 
 /** Zostawia tylko teksty, w których wszystkie {znaczniki} mają wartość. */
-export function usable(list: readonly string[], vars: Record<string, string>): string[] {
+export function usable(
+  list: readonly string[],
+  vars: Record<string, string>,
+): string[] {
   const ok = list.filter((text) =>
     [...text.matchAll(/\{(\w+)\}/g)].every((m) => m[1] in vars),
   );
-  return ok.length ? ok : [...list];
+  return ok;
 }
